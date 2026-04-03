@@ -1,7 +1,7 @@
 Summary:	iDRAC KVM client script that doesn't require web browser
 Name:		idrac-kvm-client
 Version:	0.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Applications/System
 Source0:	%{name}.py
