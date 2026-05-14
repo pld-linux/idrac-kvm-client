@@ -1,13 +1,13 @@
 Summary:	iDRAC KVM client script that doesn't require web browser
 Name:		idrac-kvm-client
 Version:	0.1
-Release:	2
+Release:	3
 License:	BSD
 Group:		Applications/System
 Source0:	%{name}.py
 BuildRequires:	rpmbuild(macros) >= 1.268
 Requires:	jre
-Requires:	jre-base-X11
+Requires:	jre-X11
 Requires:	python3-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
